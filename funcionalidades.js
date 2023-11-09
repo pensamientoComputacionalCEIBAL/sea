@@ -20,7 +20,7 @@ $("#pa1").focus(); });
 function generar () {
   let cadenaFinal = "";
   if ( $("#pa1").val() != '' && $("#pregunta").val() != '') {
-    cadenaFinal = '<div style="width:800px;margin: auto; border-top: 35px solid #f4df78; border-right: 6px solid #f4df78; border-bottom: 6px solid #f4df78; border-left: 6px solid #f4df78; box-shadow: 3px 3px 5px 3px #999;">';
+    cadenaFinal = '<div style="width:800px;margin: auto; border-top: 35px solid #f4df78; border-right: 6px solid #f4df78; border-bottom: 6px solid #f4df78; border-left: 6px solid #f4df78; box-shadow: 3px 3px 5px 3px #999; word-break: break-word;">';
     cadenaFinal += '\n';
     cadenaFinal += '<table border="0" cellpadding="20" style="width:98%">' + '\n';
     cadenaFinal += '<tbody>' + '\n';
