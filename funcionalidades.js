@@ -24,14 +24,14 @@ function generar () {
     cadenaFinal += '\n';
     cadenaFinal += '<table border="0" cellpadding="20" style="width:98%">' + '\n';
     cadenaFinal += '<tbody>' + '\n';
-    cadenaFinal += '<tr> <td> <div style="padding:1%">' + '\n';
+    cadenaFinal += '<tr> <td> <div style="padding:1%"; word-break: break-word;>' + '\n';
     cadenaFinal += '<p>' + $("#pa1").val() + '</p>' + '\n';
     if ( $("#pa2").val() != '') { cadenaFinal += '<p>' + $("#pa2").val() + '</p>' + '\n'; }
     if ( $("#pa3").val() != '') { cadenaFinal += '<p>' + $("#pa3").val() + '</p>' + '\n'; }
     if ( $("#pa4").val() != '') { cadenaFinal += '<p>' + $("#pa4").val() + '</p>' + '\n'; }
     if ( $("#pa5").val() != '') { cadenaFinal += '<p>' + $("#pa5").val() + '</p>' + '\n'; }
     cadenaFinal += '</div> </td> </tr>' + '\n';
-    cadenaFinal += '<tr> <td> <div style="padding:1%">' + '\n';
+    cadenaFinal += '<tr> <td> <div style="padding:1%; word-break: break-word;">' + '\n';
     cadenaFinal += '<div style="background: #ee9b8d; padding: 2%; border-radius: 0 80px 60px 0; border-left: 30px solid #f4df78; width: 90%; margin: 1%;">' + '\n';
     cadenaFinal += '<p>' + $("#pregunta").val() + '</p>' + '\n';
     cadenaFinal += '</div> </div> </td> </tr>' + '\n';
